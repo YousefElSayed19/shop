@@ -8,9 +8,6 @@
     $full_name = $parts[0];
 
     if (isset($_POST['logout'])) {
-        $state = false;
-        $image = false;
-        $admin = false;
         $_SESSION['state']=false;
         $_SESSION['image']=false;
         $_SESSION['admin']=false;
